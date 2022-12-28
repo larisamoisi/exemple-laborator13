@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+    color: blue;
+    text-align: center;
+}
+
+h1 {
+    background-color: green;
+    color: white;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+div {
+    background-color: lightblue;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+    white-space: nowrap;
+}

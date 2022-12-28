@@ -1,0 +1,26 @@
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table th {
+    height: 50px;
+    width: 100px;
+    padding: 5px;
+}
+
+table td {
+   height: 30px; 
+   text-align: center;
+   padding: 5px 5px 5px 10px;
+}
+
+table tr:nth-child(2n) {
+    background-color: Azure;
+}
+
+table tr:nth-child(2n+1) {
+    background-color: LavenderBlush;
+}
+
+table td:hover {font-weight: bold;}
